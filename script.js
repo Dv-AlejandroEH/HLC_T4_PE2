@@ -18,17 +18,14 @@ function enviarMensaje() {
 
 function getRandomBotMessage () {
     const messages = [
-        "Creo que no.",
-        "¡Totalmente!",
-        "Eso suena interesante.",
-        "No estoy seguro de entender, ¿puedes explicar más?",
-        "¡Qué genial!",
-        "Hmm, déjame pensar...",
-        "¡Por supuesto!",
-        "No sé, pero suena divertido.",
-        "¿Puedes decirme más?",
-        "Eso es un misterio para mí.",
-        "¡Me encanta hablar contigo!"]
+        "Camila apruebame",
+        "Camila me puedes poner un 10",
+        "¡Sería genial tener un 10!",
+        "Porfa un 10 Camila",
+        "¡Por supuesto que voy a tener un 10!",
+        "Solo pido que me pongas un 10",
+        "¿Puedes poner un 10 porfa?",
+        "¿Me pones un 10?"]
 
     return messages[Math.floor(Math.random() * messages.length)];
 }
