@@ -50,3 +50,10 @@ document.getElementById('input').addEventListener('keydown', function comprobarE
     }, 500)
     }
 });
+
+function escribirMensaje() {
+    enviarMensaje();
+    setTimeout(() => {
+        responderMensaje();
+    }, 500)
+}
